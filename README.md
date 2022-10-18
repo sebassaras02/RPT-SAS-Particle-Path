@@ -2,6 +2,7 @@
 
 This repository contains the data treatment, data analysis, data visualization, machine learning models development, and hyper-parameter tunning.
 
+----
 
 **Table of Contents**
 
