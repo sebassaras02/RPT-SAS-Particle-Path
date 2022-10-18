@@ -15,9 +15,14 @@ This repository contains the data treatment, data analysis, data visualization, 
 - The data comes from the following repository: https://github.com/sebassaras02/RPT_array_pos.git
  
 - The data has five folders (Det-i). Each folder is a different experiment. The entire folder (Det-i) was used in the training stage. The folder Test_RPT was used for the testing. The test dataset was not used in any stage during the train.
+
+----
+
 ### Models built
 - Two models were built to reconstruct the particle trajectory. They were a Feedforward neural network and a K-Nearest Neighbors. 
 - Both models were built for each experimentation.
+
+
 ### Model results
 ---
 
@@ -37,12 +42,12 @@ The MEDE score was roughly 0.22 for K-Nearest Neighbor Regressor and the Feed Fo
     F --> G[Find out correlation between variables]
     G --> H[Analyze if there is a linear correlation]
     H --> I[Load and treat test data]
-    J --> K[Mix up training and test data]
-    K --> L[Normalize data]
-    L --> M[Split again data into training and test data]
-    M --> N[Create and train the models]
-    N --> O[Test the models]
-    O --> P[Tune the hyper-parameters]
+    I --> J[Mix up training and test data]
+    J --> K[Normalize data]
+    K --> L[Split again data into training and test data]
+    L --> M[Create and train the models]
+    M --> N[Test the models]
+    N --> O[Tune the hyper-parameters]
 
 ```
 
