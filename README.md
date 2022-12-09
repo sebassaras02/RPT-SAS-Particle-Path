@@ -23,6 +23,11 @@ This repository contains the data treatment, data analysis, data visualization, 
 - Two models were built to reconstruct the particle trajectory. They were a Feedforward neural network and a K-Nearest Neighbors. 
 - Both models were built for each experimentation.
 
+### Warning
+---
+
+The tunning was only a test. It was not the scope of the publication "SAS GEANT4 Application and Machine Learning Algorithms for Radioactive Particle Tracking".
+
 
 ### Model results
 ---
